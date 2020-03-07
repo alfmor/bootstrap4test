@@ -22,19 +22,61 @@
 
     <title>Prima prova di Bootstrap</title>
   </head>
+
   <body>
-    <h1>Prima prova di Bootstrap</h1>
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">
-        This is a simple bootstrap 4 website that I am developing
-      </p>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">BlindNovel</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                Tavoli
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Tavolo 1</a>  
+                <a class="dropdown-item" href="#">Tavolo 2</a>  
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tavolo 2</a>  
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Esci</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <!-- fine navbar -->
+
+      <div class="jumbotron">
+        <h1 class="display-4">Blind Novel</h1>
+        <p class="lead">
+          Prova ad immaginare cosa posso aver scritto prima di te per dar vita a questa storia. <br/>
+          Prova ad immaginare cosa succederà. <br/>
+          E adesso scrivilo.
+        </p>
+    
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Entra</a>
+        </p>
     </div>
 
+
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="/js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
+    <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
